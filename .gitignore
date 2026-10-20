@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 
+# Настройки IDE
+.idea/
+
 # Выгрузки и кэши: воспроизводятся скриптами (см. README)
 data/
 cache/
