@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Выгрузки и кэши: воспроизводятся скриптами (см. README)
+data/
+cache/
