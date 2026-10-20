@@ -95,4 +95,11 @@ for bad in (lambda: geo.nearest_places("bar", *HERMITAGE, k=1),
     except ValueError:
         pass
 
+# 7. places_by_attribute: все рестораны кухни, без расстояний, число совпадает с прямым подсчётом
+uzbek = geo.places_by_attribute("restaurant", cuisine="uzbek")
+manual = sum(1 for r in places.itertuples()
+             if r.category == "restaurant" and "uzbek" in str(r.cuisine).split(";"))
+print("Узбекских ресторанов:", len(uzbek))
+assert len(uzbek) == manual > 0 and uzbek["distance_m"].isna().all()
+
 print("OK: все проверки пройдены")

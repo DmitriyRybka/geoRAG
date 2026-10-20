@@ -1,0 +1,52 @@
+# Дополнительные вопросы со сложными формулировками. Добавлены ПОСЛЕ просмотра результатов основной выборки
+# (eval/questions.yaml), чтобы проверить устойчивость планировщика. Правила эталона те же, что в основном файле.
+- id: s1
+  type: nearest
+  text: Ближайший парк к Эрмитажу
+  category: park
+  landmark: Эрмитаж
+  k: 1
+- id: s2
+  type: radius
+  text: Кафешки возле Летнего сада, метров 500
+  category: cafe
+  landmark: Летний сад
+  radius_m: 500
+- id: s3
+  type: radius
+  text: Что есть из ресторанов в полукилометре от Медного всадника?
+  category: restaurant
+  landmark: Медный всадник
+  radius_m: 500
+- id: s4
+  type: radius
+  text: Рестораны в 300 метрах от Дворцовой пл.
+  category: restaurant
+  landmark: Дворцовая площадь
+  radius_m: 300
+- id: s5
+  type: mixed
+  text: Ресторанчик с итальянской кухней неподалёку от Исаакиевского собора, в пределах 600 метров
+  category: restaurant
+  cuisine: italian
+  landmark: Исаакиевский собор
+  radius_m: 600
+- id: s6
+  type: radius
+  text: Парки в полутора километрах от Летнего сада
+  category: park
+  landmark: Летний сад
+  radius_m: 1500
+- id: s7
+  type: radius
+  text: Which cafes are within 500 meters of the Hermitage?
+  category: cafe
+  landmark: Эрмитаж
+  radius_m: 500
+- id: s8
+  type: mixed
+  text: Три ближайших китайских ресторана около Дворцовой площади
+  category: restaurant
+  cuisine: chinese
+  landmark: Дворцовая площадь
+  k: 3

@@ -1,0 +1,127 @@
+# Вопросы для оценки. Эталонный набор ID вычисляет код (eval/run_eval.py) по этим параметрам:
+#   задан radius_m -> все места category (и cuisine) в радиусе от landmark;
+#   задан k        -> k ближайших мест category (и cuisine) к landmark;
+#   иначе          -> все места category и cuisine во всей выгрузке (вопрос по атрибуту).
+# Параметры выбраны до запуска систем и после просмотра результатов не менялись.
+
+# --- в радиусе ---
+- id: r1
+  type: radius
+  text: Найди кафе в 500 метрах от Летнего сада
+  category: cafe
+  landmark: Летний сад
+  radius_m: 500
+- id: r2
+  type: radius
+  text: Какие рестораны есть в радиусе 500 м от Эрмитажа?
+  category: restaurant
+  landmark: Эрмитаж
+  radius_m: 500
+- id: r3
+  type: radius
+  text: Кафе в 300 метрах от Исаакиевского собора
+  category: cafe
+  landmark: Исаакиевский собор
+  radius_m: 300
+- id: r4
+  type: radius
+  text: Покажи рестораны в 300 метрах от Дворцовой площади
+  category: restaurant
+  landmark: Дворцовая площадь
+  radius_m: 300
+- id: r5
+  type: radius
+  text: Парки в радиусе километра от Дворцовой площади
+  category: park
+  landmark: Дворцовая площадь
+  radius_m: 1000
+- id: r6
+  type: radius
+  text: Какие кафе находятся в 500 метрах от Медного всадника?
+  category: cafe
+  landmark: Медный всадник
+  radius_m: 500
+
+# --- ближайшие (число названо явно) ---
+- id: n1
+  type: nearest
+  text: Три ближайших ресторана к Медному всаднику
+  category: restaurant
+  landmark: Медный всадник
+  k: 3
+- id: n2
+  type: nearest
+  text: Пять ближайших кафе к Эрмитажу
+  category: cafe
+  landmark: Эрмитаж
+  k: 5
+- id: n3
+  type: nearest
+  text: Два ближайших парка к Исаакиевскому собору
+  category: park
+  landmark: Исаакиевский собор
+  k: 2
+- id: n4
+  type: nearest
+  text: Четыре ближайших кафе к Дворцовой площади
+  category: cafe
+  landmark: Дворцовая площадь
+  k: 4
+- id: n5
+  type: nearest
+  text: Назови три ближайших ресторана от Летнего сада
+  category: restaurant
+  landmark: Летний сад
+  k: 3
+
+# --- по атрибуту (кухня, без ориентира) ---
+- id: a1
+  type: attribute
+  text: Какие есть индийские рестораны?
+  category: restaurant
+  cuisine: indian
+- id: a2
+  type: attribute
+  text: Французские рестораны
+  category: restaurant
+  cuisine: french
+- id: a3
+  type: attribute
+  text: Покажи японские рестораны
+  category: restaurant
+  cuisine: japanese
+- id: a4
+  type: attribute
+  text: Какие есть узбекские рестораны?
+  category: restaurant
+  cuisine: uzbek
+
+# --- смешанные (кухня и расстояние) ---
+- id: m1
+  type: mixed
+  text: Грузинский ресторан в 700 метрах от Казанского собора
+  category: restaurant
+  cuisine: georgian
+  landmark: Казанский собор
+  radius_m: 700
+- id: m2
+  type: mixed
+  text: Итальянские рестораны в километре от Эрмитажа
+  category: restaurant
+  cuisine: italian
+  landmark: Эрмитаж
+  radius_m: 1000
+- id: m3
+  type: mixed
+  text: Два ближайших итальянских ресторана к Эрмитажу
+  category: restaurant
+  cuisine: italian
+  landmark: Эрмитаж
+  k: 2
+- id: m4
+  type: mixed
+  text: Три ближайших грузинских ресторана к Летнему саду
+  category: restaurant
+  cuisine: georgian
+  landmark: Летний сад
+  k: 3

@@ -38,6 +38,10 @@ def ask(question: str) -> dict:
 
     out["place"] = place = resolve_place(plan.landmark, question)
     if place is None:
+        if plan.cuisine:  # вопрос про атрибут без ориентира: все места такой категории и кухни
+            out["table"] = geo.places_by_attribute(plan.category.value, plan.cuisine.value)
+            out["call"] = f"places_by_attribute({plan.category.value}, cuisine={plan.cuisine.value})"
+            return out
         out["message"] = f"Не нашёл ориентир в вопросе. Известные ориентиры: {', '.join(LANDMARKS)}."
         return out
     point = load_landmark_coords()[place[0]]
@@ -71,7 +75,8 @@ def print_answer(out: dict) -> None:
     print(f"Вызов: {out['call']}")
     print(f"Найдено мест: {len(table)}")
     for i, row in enumerate(table.head(MAX_SHOWN).itertuples(), 1):
-        print(f"{i:>2}. {row.name} - {row.distance_m:.0f} м ({row.place_id})")
+        distance = f"{row.distance_m:.0f} м" if row.distance_m == row.distance_m else "без расстояния"
+        print(f"{i:>2}. {row.name} - {distance} ({row.place_id})")
     if len(table) > MAX_SHOWN:
         print(f"... и ещё {len(table) - MAX_SHOWN}")
 

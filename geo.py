@@ -40,6 +40,12 @@ def _candidates(category: str, cuisine: str | None, places: gpd.GeoDataFrame | N
     return places
 
 
+def places_by_attribute(category: str, cuisine: str | None = None, places: gpd.GeoDataFrame | None = None):
+    """Все места категории category (и кухни cuisine) без привязки к точке; distance_m не определено."""
+    found = _candidates(category, cuisine, places)
+    return found.assign(distance_m=float("nan")).sort_values("place_id")[COLUMNS].reset_index(drop=True)
+
+
 def places_within_radius(category: str, lat: float, lon: float, radius_m: float,
                          cuisine: str | None = None, places: gpd.GeoDataFrame | None = None):
     """Места категории category не дальше radius_m метров от точки, от ближних к дальним."""

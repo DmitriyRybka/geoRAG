@@ -1,0 +1,1416 @@
+[
+ {
+  "pool": 1227,
+  "id": "r1",
+  "type": "radius",
+  "text": "Найди кафе в 500 метрах от Летнего сада",
+  "params": {
+   "category": "cafe",
+   "landmark": "Летний сад",
+   "radius_m": 500
+  },
+  "nearest": false,
+  "truth": [
+   "node/4350036490",
+   "node/4350036491",
+   "node/3595284144",
+   "node/2955779125",
+   "node/5411112609",
+   "node/7929218847",
+   "node/10124376675",
+   "node/10124376671",
+   "node/2837966393",
+   "node/5244465450",
+   "node/4375606413",
+   "node/6504631137",
+   "node/8154442198",
+   "node/11018548704",
+   "node/11505574648"
+  ],
+  "preds": {
+   "geo": [
+    "node/4350036490",
+    "node/4350036491",
+    "node/3595284144",
+    "node/2955779125",
+    "node/5411112609",
+    "node/7929218847",
+    "node/10124376675",
+    "node/10124376671",
+    "node/2837966393",
+    "node/5244465450",
+    "node/4375606413",
+    "node/6504631137",
+    "node/8154442198",
+    "node/11018548704",
+    "node/11505574648"
+   ],
+   "rag": [
+    "node/5578370356",
+    "node/4350036490",
+    "node/4396235089",
+    "node/2311577230",
+    "node/9287015491",
+    "node/10826889433",
+    "node/10273859553",
+    "node/1580632256",
+    "node/1613158851",
+    "node/8883301075",
+    "node/10719359193",
+    "node/11397777040",
+    "node/13272896311",
+    "node/4547524852",
+    "node/8569316635"
+   ],
+   "rag_cat": [
+    "node/4350036490",
+    "node/2311577230",
+    "node/9287015491",
+    "node/10826889433",
+    "node/10719359193",
+    "node/10594555916",
+    "node/3487159237",
+    "node/1200640987",
+    "node/1544280555",
+    "node/11773529294",
+    "node/10095809094",
+    "node/4892365550",
+    "node/11397782849",
+    "node/4865004287",
+    "node/4696005757"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.06666666666666667,
+    "recall": 0.06666666666666667,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.06666666666666667,
+    "recall": 0.06666666666666667,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"cafe\", \"cuisine\": null, \"radius_m\": 500, \"k\": null, \"landmark\": \"Летний сад\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "r2",
+  "type": "radius",
+  "text": "Какие рестораны есть в радиусе 500 м от Эрмитажа?",
+  "params": {
+   "category": "restaurant",
+   "landmark": "Эрмитаж",
+   "radius_m": 500
+  },
+  "nearest": false,
+  "truth": [
+   "node/2754437210",
+   "node/4128135590",
+   "node/3165417102",
+   "node/11306334079",
+   "node/14144961873",
+   "node/10314676709",
+   "node/4964961125",
+   "node/13956246638",
+   "node/4595655391",
+   "node/819235358",
+   "node/13956246636",
+   "node/4925245469",
+   "node/4350034894",
+   "node/5612432211"
+  ],
+  "preds": {
+   "geo": [
+    "node/2754437210",
+    "node/4128135590",
+    "node/3165417102",
+    "node/11306334079",
+    "node/14144961873",
+    "node/10314676709",
+    "node/4964961125",
+    "node/13956246638",
+    "node/4595655391",
+    "node/819235358",
+    "node/13956246636",
+    "node/4925245469",
+    "node/4350034894",
+    "node/5612432211"
+   ],
+   "rag": [
+    "node/4814267432",
+    "node/4457039789",
+    "node/4547524852",
+    "node/4931836175",
+    "node/4193708223",
+    "node/4622537105",
+    "node/1129387723",
+    "node/2139870808",
+    "node/4864320001",
+    "node/8569316635",
+    "node/10271376699",
+    "node/10007102918",
+    "node/4799726343",
+    "node/2868711824"
+   ],
+   "rag_cat": [
+    "node/4814267432",
+    "node/4457039789",
+    "node/4547524852",
+    "node/4931836175",
+    "node/4193708223",
+    "node/4622537105",
+    "node/1129387723",
+    "node/2139870808",
+    "node/4864320001",
+    "node/8569316635",
+    "node/10271376699",
+    "node/10007102918",
+    "node/4799726343",
+    "node/2868711824"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": null, \"radius_m\": 500, \"k\": null, \"landmark\": \"Эрмитаж\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 1227,
+  "id": "r3",
+  "type": "radius",
+  "text": "Кафе в 300 метрах от Исаакиевского собора",
+  "params": {
+   "category": "cafe",
+   "landmark": "Исаакиевский собор",
+   "radius_m": 300
+  },
+  "nearest": false,
+  "truth": [
+   "node/4538542707",
+   "node/5177371454",
+   "node/5249624711",
+   "node/525359854",
+   "node/7806831930",
+   "node/4799620595",
+   "node/525360782",
+   "node/2736309108",
+   "node/4982017182",
+   "node/4810638071",
+   "node/3150689793"
+  ],
+  "preds": {
+   "geo": [
+    "node/4538542707",
+    "node/5177371454",
+    "node/5249624711",
+    "node/525359854",
+    "node/7806831930",
+    "node/4799620595",
+    "node/525360782",
+    "node/2736309108",
+    "node/4982017182",
+    "node/4810638071",
+    "node/3150689793"
+   ],
+   "rag": [
+    "node/5612432211",
+    "node/10814464533",
+    "node/9161164817",
+    "node/12518569443",
+    "node/2407126698",
+    "node/4684911262",
+    "node/4800964877",
+    "node/5563229127",
+    "node/9330759658",
+    "node/5216465021",
+    "node/6590118845"
+   ],
+   "rag_cat": [
+    "node/12518569443",
+    "node/2407126698",
+    "node/4684911262",
+    "node/4800964877",
+    "node/9330759658",
+    "node/6590118845",
+    "node/5516563099",
+    "node/463252327",
+    "node/4602327646",
+    "node/5615256157",
+    "node/4696005757"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"cafe\", \"cuisine\": null, \"radius_m\": 300, \"k\": null, \"landmark\": \"Исаакиевский собор\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "r4",
+  "type": "radius",
+  "text": "Покажи рестораны в 300 метрах от Дворцовой площади",
+  "params": {
+   "category": "restaurant",
+   "landmark": "Дворцовая площадь",
+   "radius_m": 300
+  },
+  "nearest": false,
+  "truth": [
+   "node/2754437210",
+   "node/819235358",
+   "node/11306334079",
+   "node/10314676709",
+   "node/4128135590"
+  ],
+  "preds": {
+   "geo": [
+    "node/2754437210",
+    "node/819235358",
+    "node/11306334079",
+    "node/10314676709",
+    "node/4128135590"
+   ],
+   "rag": [
+    "node/9161164817",
+    "node/5563374522",
+    "node/4864320001",
+    "node/4479611942",
+    "node/13246415785"
+   ],
+   "rag_cat": [
+    "node/9161164817",
+    "node/5563374522",
+    "node/4864320001",
+    "node/4479611942",
+    "node/13246415785"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": null, \"radius_m\": 300, \"k\": null, \"landmark\": \"Дворцовая площадь\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 105,
+  "id": "r5",
+  "type": "radius",
+  "text": "Парки в радиусе километра от Дворцовой площади",
+  "params": {
+   "category": "park",
+   "landmark": "Дворцовая площадь",
+   "radius_m": 1000
+  },
+  "nearest": false,
+  "truth": [
+   "relation/11490013",
+   "relation/1604351",
+   "relation/11492646",
+   "relation/2050448",
+   "way/115318448",
+   "relation/2614476",
+   "way/23076273",
+   "way/28670794",
+   "relation/11281451",
+   "relation/15745625"
+  ],
+  "preds": {
+   "geo": [
+    "relation/11490013",
+    "relation/1604351",
+    "relation/11492646",
+    "relation/2050448",
+    "way/115318448",
+    "relation/2614476",
+    "way/23076273",
+    "way/28670794",
+    "relation/11281451",
+    "relation/15745625"
+   ],
+   "rag": [
+    "way/108952921",
+    "way/249726356",
+    "relation/10323165",
+    "way/192528136",
+    "relation/5993442",
+    "relation/11490013",
+    "way/153999926",
+    "way/100788219",
+    "way/80343012",
+    "way/93330289"
+   ],
+   "rag_cat": [
+    "way/108952921",
+    "way/249726356",
+    "relation/10323165",
+    "way/192528136",
+    "relation/5993442",
+    "relation/11490013",
+    "way/153999926",
+    "way/100788219",
+    "way/80343012",
+    "way/93330289"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.1,
+    "recall": 0.1,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.1,
+    "recall": 0.1,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"park\", \"cuisine\": null, \"radius_m\": 1000, \"k\": null, \"landmark\": \"Дворцовая площадь\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 1227,
+  "id": "r6",
+  "type": "radius",
+  "text": "Какие кафе находятся в 500 метрах от Медного всадника?",
+  "params": {
+   "category": "cafe",
+   "landmark": "Медный всадник",
+   "radius_m": 500
+  },
+  "nearest": false,
+  "truth": [
+   "node/14064528381",
+   "node/4578924276",
+   "node/5249624711",
+   "node/4538542707",
+   "node/4764933550",
+   "node/4436959328",
+   "node/4764933554",
+   "node/2736309108",
+   "node/4799620595",
+   "node/5648139894",
+   "node/525359854",
+   "node/4982017182",
+   "node/525360782",
+   "node/4582332127",
+   "node/5177371454",
+   "node/4173464809"
+  ],
+  "preds": {
+   "geo": [
+    "node/14064528381",
+    "node/4578924276",
+    "node/5249624711",
+    "node/4538542707",
+    "node/4764933550",
+    "node/4436959328",
+    "node/4764933554",
+    "node/2736309108",
+    "node/4799620595",
+    "node/5648139894",
+    "node/525359854",
+    "node/4982017182",
+    "node/525360782",
+    "node/4582332127",
+    "node/5177371454",
+    "node/4173464809"
+   ],
+   "rag": [
+    "node/11026028987",
+    "node/2512654144",
+    "node/2139870808",
+    "node/5368771066",
+    "node/5578370356",
+    "node/10007102918",
+    "node/2952630827",
+    "node/4905717054",
+    "node/12600074429",
+    "node/2595723106",
+    "node/11942935668",
+    "node/11203378605",
+    "node/7965790662",
+    "node/9930377050",
+    "node/774981918",
+    "node/9287015491"
+   ],
+   "rag_cat": [
+    "node/11026028987",
+    "node/2512654144",
+    "node/5368771066",
+    "node/2952630827",
+    "node/4905717054",
+    "node/2595723106",
+    "node/11203378605",
+    "node/7965790662",
+    "node/9930377050",
+    "node/9287015491",
+    "node/10826889433",
+    "node/2291204090",
+    "way/1313318425",
+    "node/1280199921",
+    "node/2980109552",
+    "node/1772657488"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"cafe\", \"cuisine\": null, \"radius_m\": 500, \"k\": null, \"landmark\": \"Медный всадник\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "n1",
+  "type": "nearest",
+  "text": "Три ближайших ресторана к Медному всаднику",
+  "params": {
+   "category": "restaurant",
+   "landmark": "Медный всадник",
+   "k": 3
+  },
+  "nearest": true,
+  "truth": [
+   "node/4801441865",
+   "node/487267451",
+   "node/4801441863"
+  ],
+  "preds": {
+   "geo": [
+    "node/4801441865",
+    "node/487267451",
+    "node/4801441863"
+   ],
+   "rag": [
+    "node/9161164817",
+    "node/8145388217",
+    "node/2283527775"
+   ],
+   "rag_cat": [
+    "node/9161164817",
+    "node/8145388217",
+    "node/2283527775"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": null, \"radius_m\": null, \"k\": 3, \"landmark\": \"Медный всадник\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 1227,
+  "id": "n2",
+  "type": "nearest",
+  "text": "Пять ближайших кафе к Эрмитажу",
+  "params": {
+   "category": "cafe",
+   "landmark": "Эрмитаж",
+   "k": 5
+  },
+  "nearest": true,
+  "truth": [
+   "node/5146567115",
+   "node/7154732585",
+   "node/10973870305",
+   "node/5406048212",
+   "node/11178520038"
+  ],
+  "preds": {
+   "geo": [
+    "node/5146567115",
+    "node/7154732585",
+    "node/10973870305",
+    "node/5406048212",
+    "node/11178520038"
+   ],
+   "rag": [
+    "node/8883301075",
+    "node/920624473",
+    "node/5612432211",
+    "node/4547524852",
+    "node/3810041817"
+   ],
+   "rag_cat": [
+    "node/4710916692",
+    "node/11773529294",
+    "node/11415194168",
+    "node/5150942731",
+    "way/1149237579"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"cafe\", \"cuisine\": null, \"radius_m\": null, \"k\": 5, \"landmark\": \"Эрмитаж\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 105,
+  "id": "n3",
+  "type": "nearest",
+  "text": "Два ближайших парка к Исаакиевскому собору",
+  "params": {
+   "category": "park",
+   "landmark": "Исаакиевский собор",
+   "k": 2
+  },
+  "nearest": true,
+  "truth": [
+   "way/23076273",
+   "relation/1604351"
+  ],
+  "preds": {
+   "geo": [
+    "way/23076273",
+    "relation/1604351"
+   ],
+   "rag": [
+    "way/23076273",
+    "relation/10573024"
+   ],
+   "rag_cat": [
+    "way/23076273",
+    "relation/10573024"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "top1": true
+   },
+   "rag": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "top1": true
+   }
+  },
+  "plan_raw": "{\"category\": \"park\", \"cuisine\": null, \"radius_m\": null, \"k\": 2, \"landmark\": \"Исаакиевский собор\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 1227,
+  "id": "n4",
+  "type": "nearest",
+  "text": "Четыре ближайших кафе к Дворцовой площади",
+  "params": {
+   "category": "cafe",
+   "landmark": "Дворцовая площадь",
+   "k": 4
+  },
+  "nearest": true,
+  "truth": [
+   "node/11203378604",
+   "node/10973870305",
+   "node/5406048212",
+   "node/4437884675"
+  ],
+  "preds": {
+   "geo": [
+    "node/11203378604",
+    "node/10973870305",
+    "node/5406048212",
+    "node/4437884675"
+   ],
+   "rag": [
+    "node/819235358",
+    "node/920624473",
+    "node/5563374522",
+    "node/4479611948"
+   ],
+   "rag_cat": [
+    "node/4696005757",
+    "node/13339312664",
+    "way/1231954888",
+    "node/992363507"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"cafe\", \"cuisine\": null, \"radius_m\": null, \"k\": 4, \"landmark\": \"Дворцовая площадь\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "n5",
+  "type": "nearest",
+  "text": "Назови три ближайших ресторана от Летнего сада",
+  "params": {
+   "category": "restaurant",
+   "landmark": "Летний сад",
+   "k": 3
+  },
+  "nearest": true,
+  "truth": [
+   "node/2955779122",
+   "node/11018548701",
+   "node/1652758499"
+  ],
+  "preds": {
+   "geo": [
+    "node/2955779122",
+    "node/11018548701",
+    "node/1652758499"
+   ],
+   "rag": [
+    "node/9161164817",
+    "node/8145388217",
+    "node/4396235089"
+   ],
+   "rag_cat": [
+    "node/9161164817",
+    "node/8145388217",
+    "node/4396235089"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": null, \"radius_m\": null, \"k\": 3, \"landmark\": \"Летний сад\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "a1",
+  "type": "attribute",
+  "text": "Какие есть индийские рестораны?",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "indian"
+  },
+  "nearest": false,
+  "truth": [
+   "node/1000780542",
+   "node/2261776302",
+   "node/2903082254",
+   "node/2903082255",
+   "node/3764256035",
+   "node/4876850395",
+   "node/5144361522",
+   "node/5172224926",
+   "node/891394193",
+   "node/9775171751"
+  ],
+  "preds": {
+   "geo": [
+    "node/1000780542",
+    "node/2261776302",
+    "node/2903082254",
+    "node/2903082255",
+    "node/3764256035",
+    "node/4876850395",
+    "node/5144361522",
+    "node/5172224926",
+    "node/891394193",
+    "node/9775171751"
+   ],
+   "rag": [
+    "node/891394193",
+    "node/2903082255",
+    "node/9775171751",
+    "node/1000780542",
+    "node/4876850395",
+    "node/2903082254",
+    "node/5172224926",
+    "node/3764256035",
+    "node/2261776302",
+    "node/2624824491"
+   ],
+   "rag_cat": [
+    "node/891394193",
+    "node/2903082255",
+    "node/9775171751",
+    "node/1000780542",
+    "node/4876850395",
+    "node/2903082254",
+    "node/5172224926",
+    "node/3764256035",
+    "node/2261776302",
+    "node/2303318647"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"indian\", \"radius_m\": null, \"k\": null, \"landmark\": null}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "a2",
+  "type": "attribute",
+  "text": "Французские рестораны",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "french"
+  },
+  "nearest": false,
+  "truth": [
+   "node/11850541910",
+   "node/1312387854",
+   "node/13956246636",
+   "node/2599772972",
+   "node/2931072466",
+   "node/4111958907",
+   "node/4944890521",
+   "node/5673286334",
+   "node/806509590",
+   "node/8120861817",
+   "node/9863913417"
+  ],
+  "preds": {
+   "geo": [
+    "node/11850541910",
+    "node/1312387854",
+    "node/13956246636",
+    "node/2599772972",
+    "node/2931072466",
+    "node/4111958907",
+    "node/4944890521",
+    "node/5673286334",
+    "node/806509590",
+    "node/8120861817",
+    "node/9863913417"
+   ],
+   "rag": [
+    "node/5673286334",
+    "node/2952630823",
+    "node/12577061411",
+    "node/2599772972",
+    "node/8120861817",
+    "node/9969325220",
+    "node/2174863958",
+    "node/2749600301",
+    "node/5438840090",
+    "node/3736562966",
+    "node/5563374547"
+   ],
+   "rag_cat": [
+    "node/5673286334",
+    "node/2952630823",
+    "node/12577061411",
+    "node/2599772972",
+    "node/8120861817",
+    "node/9969325220",
+    "node/2174863958",
+    "node/2749600301",
+    "node/5438840090",
+    "node/3736562966",
+    "node/5563374547"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.2727272727272727,
+    "recall": 0.2727272727272727,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.2727272727272727,
+    "recall": 0.2727272727272727,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"french\", \"radius_m\": null, \"k\": null, \"landmark\": null}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "a3",
+  "type": "attribute",
+  "text": "Покажи японские рестораны",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "japanese"
+  },
+  "nearest": false,
+  "truth": [
+   "node/10004171118",
+   "node/10046651404",
+   "node/11975150296",
+   "node/1269132606",
+   "node/13112762810",
+   "node/14094894301",
+   "node/1585736555",
+   "node/2963069047",
+   "node/2974761152",
+   "node/3352851557",
+   "node/3352851558",
+   "node/4280642204",
+   "node/497695708",
+   "node/5073871625",
+   "node/633147735",
+   "node/9087929317",
+   "node/9895605363"
+  ],
+  "preds": {
+   "geo": [
+    "node/10004171118",
+    "node/10046651404",
+    "node/11975150296",
+    "node/1269132606",
+    "node/13112762810",
+    "node/14094894301",
+    "node/1585736555",
+    "node/2963069047",
+    "node/2974761152",
+    "node/3352851557",
+    "node/3352851558",
+    "node/4280642204",
+    "node/497695708",
+    "node/5073871625",
+    "node/633147735",
+    "node/9087929317",
+    "node/9895605363"
+   ],
+   "rag": [
+    "node/5612432211",
+    "node/4262404691",
+    "node/8576890804",
+    "node/8947404841",
+    "node/10814464533",
+    "node/5563229127",
+    "node/10271471496",
+    "node/14089811102",
+    "node/4479611942",
+    "node/5563374547",
+    "node/5395275353",
+    "node/1559396257",
+    "node/1304587343",
+    "node/4860348079",
+    "node/3689523353",
+    "node/4350034894",
+    "node/4356059491"
+   ],
+   "rag_cat": [
+    "node/5612432211",
+    "node/4262404691",
+    "node/8576890804",
+    "node/8947404841",
+    "node/10814464533",
+    "node/5563229127",
+    "node/10271471496",
+    "node/14089811102",
+    "node/4479611942",
+    "node/5563374547",
+    "node/5395275353",
+    "node/1559396257",
+    "node/1304587343",
+    "node/4860348079",
+    "node/3689523353",
+    "node/4350034894",
+    "node/4356059491"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"japanese\", \"radius_m\": null, \"k\": null, \"landmark\": null}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "a4",
+  "type": "attribute",
+  "text": "Какие есть узбекские рестораны?",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "uzbek"
+  },
+  "nearest": false,
+  "truth": [
+   "node/14135508023",
+   "node/4352757289",
+   "way/1380918163",
+   "way/959114335"
+  ],
+  "preds": {
+   "geo": [
+    "node/14135508023",
+    "node/4352757289",
+    "way/1380918163",
+    "way/959114335"
+   ],
+   "rag": [
+    "node/14135508023",
+    "node/2286979723",
+    "node/2523059123",
+    "node/4552711270"
+   ],
+   "rag_cat": [
+    "node/14135508023",
+    "way/1380918163",
+    "node/1129387723",
+    "node/4352757289"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"uzbek\", \"radius_m\": null, \"k\": null, \"landmark\": null}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "m1",
+  "type": "mixed",
+  "text": "Грузинский ресторан в 700 метрах от Казанского собора",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "georgian",
+   "landmark": "Казанский собор",
+   "radius_m": 700
+  },
+  "nearest": false,
+  "truth": [
+   "node/906792328",
+   "node/1872273530",
+   "node/12516354891",
+   "node/2861435599",
+   "node/6534436329",
+   "node/1198596680",
+   "node/10605940980",
+   "node/5042053640",
+   "node/4352757289",
+   "node/2515184856",
+   "node/2407215419"
+  ],
+  "preds": {
+   "geo": [
+    "node/906792328",
+    "node/1872273530",
+    "node/12516354891",
+    "node/2861435599",
+    "node/6534436329",
+    "node/1198596680",
+    "node/10605940980",
+    "node/5042053640",
+    "node/4352757289",
+    "node/2515184856",
+    "node/2407215419"
+   ],
+   "rag": [
+    "node/14071232906",
+    "node/5381992510",
+    "node/1479150067",
+    "node/2283839309",
+    "node/1832890212",
+    "way/860976245",
+    "node/10605940980",
+    "node/2283527769",
+    "node/4712657158",
+    "node/2861435599",
+    "node/13686579037"
+   ],
+   "rag_cat": [
+    "node/14071232906",
+    "node/5381992510",
+    "node/1479150067",
+    "node/2283839309",
+    "node/1832890212",
+    "way/860976245",
+    "node/10605940980",
+    "node/2283527769",
+    "node/4712657158",
+    "node/2861435599",
+    "node/13686579037"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.18181818181818182,
+    "recall": 0.18181818181818182,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.18181818181818182,
+    "recall": 0.18181818181818182,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"georgian\", \"radius_m\": 700, \"k\": null, \"landmark\": \"Казанский собор\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "m2",
+  "type": "mixed",
+  "text": "Итальянские рестораны в километре от Эрмитажа",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "italian",
+   "landmark": "Эрмитаж",
+   "radius_m": 1000
+  },
+  "nearest": false,
+  "truth": [
+   "node/4595655390",
+   "node/4247666241",
+   "node/4771911302",
+   "node/2754437156",
+   "way/667375948",
+   "node/4204476089",
+   "node/4801441865",
+   "node/2407188221"
+  ],
+  "preds": {
+   "geo": [
+    "node/4595655390",
+    "node/4247666241",
+    "node/4771911302",
+    "node/2754437156",
+    "way/667375948",
+    "node/4204476089",
+    "node/4801441865",
+    "node/2407188221"
+   ],
+   "rag": [
+    "node/9969318627",
+    "node/5563374547",
+    "node/4864320000",
+    "node/12165875703",
+    "node/633147736",
+    "node/4801441865",
+    "node/8569316635",
+    "node/4248243189"
+   ],
+   "rag_cat": [
+    "node/9969318627",
+    "node/5563374547",
+    "node/4864320000",
+    "node/12165875703",
+    "node/633147736",
+    "node/4801441865",
+    "node/8569316635",
+    "node/4248243189"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": null
+   },
+   "rag_cat": {
+    "precision": 0.125,
+    "recall": 0.125,
+    "top1": null
+   },
+   "rag": {
+    "precision": 0.125,
+    "recall": 0.125,
+    "top1": null
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"italian\", \"radius_m\": 1000, \"k\": null, \"landmark\": \"Эрмитаж\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "m3",
+  "type": "mixed",
+  "text": "Два ближайших итальянских ресторана к Эрмитажу",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "italian",
+   "landmark": "Эрмитаж",
+   "k": 2
+  },
+  "nearest": true,
+  "truth": [
+   "node/4595655390",
+   "node/4247666241"
+  ],
+  "preds": {
+   "geo": [
+    "node/4595655390",
+    "node/4247666241"
+   ],
+   "rag": [
+    "node/5563374547",
+    "node/9969318627"
+   ],
+   "rag_cat": [
+    "node/5563374547",
+    "node/9969318627"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"italian\", \"radius_m\": null, \"k\": 2, \"landmark\": \"Эрмитаж\"}",
+  "plan_diff": [],
+  "message": null
+ },
+ {
+  "pool": 591,
+  "id": "m4",
+  "type": "mixed",
+  "text": "Три ближайших грузинских ресторана к Летнему саду",
+  "params": {
+   "category": "restaurant",
+   "cuisine": "georgian",
+   "landmark": "Летний сад",
+   "k": 3
+  },
+  "nearest": true,
+  "truth": [
+   "node/1832890212",
+   "node/2283839309",
+   "node/2283527769"
+  ],
+  "preds": {
+   "geo": [
+    "node/1832890212",
+    "node/2283839309",
+    "node/2283527769"
+   ],
+   "rag": [
+    "node/9161164817",
+    "node/5381992510",
+    "node/1479150067"
+   ],
+   "rag_cat": [
+    "node/9161164817",
+    "node/5381992510",
+    "node/1479150067"
+   ]
+  },
+  "scores": {
+   "geo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "top1": true
+   },
+   "rag_cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   },
+   "rag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "top1": false
+   }
+  },
+  "plan_raw": "{\"category\": \"restaurant\", \"cuisine\": \"georgian\", \"radius_m\": null, \"k\": 3, \"landmark\": \"Летний сад\"}",
+  "plan_diff": [],
+  "message": null
+ }
+]
